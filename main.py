@@ -42,7 +42,7 @@ def main():
 
         if is_screen_center_all_white(screenshot):
             if start_genshinimpact(genshinimpact_path):
-                print("已成功运行原神")
+                print("原神启动！")
             else:
                 print("未能成功运行原神")
             break
